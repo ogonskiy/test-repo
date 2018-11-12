@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Impression Shop</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="/assets/styles/main.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mocha/2.1.0/mocha.css">
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+	
+	<!-- Mocha -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/mocha/2.1.0/mocha.js"></script>
+	<!-- setting up bdd testing (BDD – Behavior Driven Development)-->
+	<script>
+    	mocha.setup('bdd');
+  	</script>
+	<!-- Chai -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/chai/2.0.0/chai.js"></script>
+	<!-- setting up Chai -->
+	<script>
+		var assertThat = chai.assert;
+	</script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a id="site-logo" class="navbar-brand" href="\">Impression Shop</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Додому! <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Наші послуги
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Для нього</a>
+                        <a class="dropdown-item" href="#">Для неї</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Для обох</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact-form">Контакти</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Відгуки</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+<!-- main content -->
+    <div class="body">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
+<!-- end of main content -->
+    <footer class="footer">
+		<div class="container">
+			<div class="footer-header">Ми знаємо, ви хочете<br>
+				<small>(заповніть форму і наш менеджер зв'яжеться з вами в лічені секунди)</small>
+			</div>
+        	<form method="post" action="/serviceRequest" id="contact-form" class="contact-form">
+			  <div class="form-group">
+				<label for="email
+							">Ваш емейл</label>
+				<input type="email" name="email" class="form-control" id="email" placeholder="name@example.com" required>
+			  </div>
+			  <div class="form-group">
+				<label for="service-category">Оберіть категорію послуги <br><small>(так наш менеджер зможе швидше опрацювати ваші дані)</small></label>
+				<select class="form-control" id="service-category" name="service-category">
+				  <option>Для нього</option>
+				  <option>Для неї</option>
+				  <option>Для обох</option>
+				</select>
+			  </div>
+			  <div class="form-group">
+				<label for="details">Вкажіть конкретну послугу та інші деталі (якщо потрібно) 
+					<br><small>(не менше 10 символів)</small>  
+				</label>
+				<textarea class="form-control" id="details" name="details" rows="3" required></textarea>
+			  </div>
+				<button type="submit" class="btn btn-primary">Відправити</button>
+			</form>
+      	</div>
+		<hr>
+     	<div class="container">
+			<div class="footer-header">Impression Shop - місце, де продаються мрії</div>
+        	<div class="row">
+          		<div class="col-sm-4">
+					<small>Ви можете знайти нас за адресою:</small> <br>
+					м. Київ, вул. Академіка Янгеля, 20
+				</div>
+          		<div class="col-sm-4">
+					<small><a href="tel:380961234567">+(380)96-123-45-67</a></small><br>
+					<small><a href="tel:380961234567">+(380)73-123-45-67</a></small><br>
+					<small><a href="tel:380961234567">+(380)66-123-45-67</a></small>
+				</div>
+          		<div class="col-sm-4">© 2018 Copyright: ImpressionShop.com</div>
+        	</div>
+      	</div>
+    </footer>
+	<script src="assets/scripts/sendForm.js"></script>
+	
+	<!-- даний елемент дозволяє переглянути результати тестування з Mocha + Chai -->
+	<div id="mocha"></div>
+
+	  <!-- запуск тесту! -->
+	<script>
+		mocha.run();
+	</script>
+</body>
+</html>
