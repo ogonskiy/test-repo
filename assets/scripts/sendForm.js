@@ -28,6 +28,7 @@
 			ev.preventDefault();
 			
 			// start of direct testing
+			console.log(assert.that(emailField.value).equals("emailname@gmail.com"));
 			console.log(assert.that(detailsField.value).equals("Some info about this service"));
 			console.log(assert.that(categoryField.value).equals("Для нього"));
 			// end of direct testing
@@ -44,7 +45,7 @@
 	function mochaTest() {
 		const emailField = document.getElementById("email");
 		
-		emailField.value = "dev3@com.ua";
+		emailField.value = "dev2@com.ua";
 		describe("validateEmail", function() {
 			it("перевіряє, чи емейл валідний", function() {
 				assertThat.equal(validateEmail(emailField.value), true);
