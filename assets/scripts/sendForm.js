@@ -44,7 +44,7 @@
 	function mochaTest() {
 		const emailField = document.getElementById("email");
 		
-		emailField.value = "qwe@qwe.qwe";
+		emailField.value = "dev3@com.ua";
 		describe("validateEmail", function() {
 			it("перевіряє, чи емейл валідний", function() {
 				assertThat.equal(validateEmail(emailField.value), true);
