@@ -28,6 +28,7 @@
 			ev.preventDefault();
 			
 			// start of direct testing
+			console.log(assert.that(detailsField.value).equals("Some info about this service"));
 			console.log(assert.that(categoryField.value).equals("Для нього"));
 			// end of direct testing
 			
